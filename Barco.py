@@ -16,7 +16,7 @@ class Barco:
         print(f"Hundido: {self.esta_hundido()}")
 if __name__ == "__main__":
     submarino = Barco("Submarino", 1)
-    buque = Barco("buque", 3)
+    buque = Barco("Buque", 3)
 
     submarino.recibir_impacto()
     submarino.mostrar_estado()
